@@ -1,0 +1,38 @@
+
+body {
+	background-color: #fff;
+	font-family:"Futura", sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color:#41564f;
+}
+
+h3 {
+	color:#41564f;
+}
+
+p {
+	font-size: 13px;
+}
+
+
+ul {
+	text-align: center;
+	 list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#slogan {
+	font-style: italic;
+}
+
+
+
+
+
+
+
