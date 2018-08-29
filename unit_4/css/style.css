@@ -1,0 +1,52 @@
+
+body {
+	background-color: #fff;
+	font-family:"Futura", sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color:#41564f;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+	color:#41564f;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color:#41564f;
+
+}
+
+p {
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+
+}
+
+
+ul {
+	text-align: center;
+	 list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+
+}
+
+#slogan {
+	font-style: italic;
+}
+
+
+
+
+
+
+
