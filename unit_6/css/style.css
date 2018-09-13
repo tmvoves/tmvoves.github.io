@@ -1,0 +1,126 @@
+
+body {
+	background-color: #fff;
+	font-family:'Noto Serif JP', sans-serif;
+	text-align: center;
+}
+
+nav {
+	background-color: ;
+	 border: 
+	 padding: 10px;
+    float: right;
+    margin: 5px;
+    width: 50em;
+    word-spacing: 7em;
+  
+}
+
+header {
+	background-color: #fff;
+	float:left;
+
+}
+
+.hero_image {
+	padding-top: 80px;
+	align-content: center;
+
+
+}
+
+.description {
+	display: inline-block;
+
+}
+
+h1 {
+	color:#000;
+	
+}
+
+h3 {
+	color:#41564f;
+	text-align: 
+	
+}
+
+h5 {
+	font-size: 13px;
+	color:#41564f;
+
+}
+
+p {
+	font-size: 12px;
+	line-height: 2em;
+
+}
+
+
+ul {
+	
+	 list-style-type: none;
+    margin: 0;
+    padding-bottom: 0px;
+    font-size: 13px;
+
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#006400;
+	text-decoration: underline;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+#two_column {
+    background-color: #fff;
+    border:  ;
+    padding: 20px;
+}
+
+#left {
+    background-color: #b6aa91;
+    float: left;
+    width: 50%;
+    height: 800px;
+    display: block;
+}
+
+#right {
+    background-color:#b6aa91; 
+    float:right;
+    width: 50%;
+     height: 800px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+footer {
+	background-color: #;
+	 border: ;
+    padding: 20px;
+    height:200px;
+}
+
+
+
+
+
+
