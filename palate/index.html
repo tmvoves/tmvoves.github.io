@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>palate</title>
+	<!--your google fonts here-->
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<!--flexbox framework-->
+	<link href="css/blueprint.css" rel="stylesheet" type="text/css">
+	<!--animation css-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<!--Favicon-->
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<!--your styles-->
+	<link href="css/demo.css" rel="stylesheet" type="text/css">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+	<!--wow animatons-->
+	<!-- script animation test -->
+
+	<script src="js/wow.min.js"></script>
+
+
+	<!-- script animation test 2 -->
+	<script src="js/demo.js"></script>
+	<script src="js.anime.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min"></script>
+	<script src="js/scrollMonitor.js"></script>
+
+	<script>
+
+		document.documentElement.className = 'js';
+		var supportsCssVars = function () {
+			var s = document.createElement('style'),
+				support;
+
+			s.innerHTML = "root: {--tmp -var: bold; }";
+			document.head.appendChild(s);
+			support = !!(window.CSS && window.CSS.supports && window.CSS.supports('font-weight', 'var(--tmp-var)'));
+			s.parentNode.removeChild(s);
+			return support;
+		}
+		if (!supportsCssVars()) alert('Please view this demo in a modern browser that supports CSS Variables.')
+	</script>
+	<!-- script animation test 2 end -->
+	<script> new WOW().init();</script>
+
+</head>
+
+
+
+
+<body>
+
+	<!--Header/NavBar-->
+	<div class="column two">
+		<a href="index.html">
+			<h1>palate</h1>
+		</a>
+		<nav id="nav">
+			<ul>
+				<li><a href="recipe.html">recipes</a></li>
+				<li><a href="renee.html">featured</a></li>
+				<li><a href="sushi.html">editorial</a></li>
+				<li><a href="pantry.html">pantry</a></li>
+				<li><a href="pdx.html">city guide</a></li>
+				<li><a href="tapas.html">how to</a></li>
+				<li><a href="wallpaper.html">interiors</a></li>
+
+			</ul>
+		</nav>
+	</div>
+
+
+	<!-- ORGANIC SHAPES TEST -->
+	<!--
+	<svg class="">
+		<symbol id="icon-arrow" viewBox="0 0 24 24">
+			<title>arrow</title>
+			<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 " />
+		</symbol>
+		<symbol id="icon-drop" viewBox="0 0 24 24">
+			<title>drop</title>
+			<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z" />
+			<path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z" />
+		</symbol>
+		<symbol id="shape-demo" viewBox="0 0 200 100">
+			<title>shape demo</title>
+			<path d="M 6.144,74.1 C 20.4,107.4 70.13,94.33 94.22,95.74 121.3,97.41 130.8,101.1 154.7,99.38 178.6,97.72 201.9,78.95 199.4,46.86 197.1,14.96 174.9,4.781 161.4,1.827 147.9,-1.128 119.8,8.284 105.6,8.766 85.34,9.449 81.91,7.628 51.08,2.334 17.26,-3.482 -8.105,40.84 6.144,74.1 Z" />
+		</symbol>
+	</svg>
+-->
+	<main>
+		<!--
+		<div class="morph-wrap">
+			<svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
+				<path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z" />
+			</svg>
+		</div>
+		-->
+
+		<!--Section 1: Recipe, Featured-->
+		<div ></div>
+		<div class="section1">
+			<!-- Recipe -->
+			<h2 class="catergory" id="catrecipe">recipe</h2>
+			<a href="recipe.html">
+				<div class="over" id="recipetitle">
+					<h3>Roasted Butternut Squash Soup</h3>
+					<p>Make the best out of autumn and warm up with this simple butternut squash soup recipe. It’s kept simple so the
+						squash flavor can shine through, but the end result offers exceptionally rich flavor.</p>
+				</a>
+					</div>
+					<div class="" id="recipeimg1"><img src="img/soup1.png" alt="doge" /></div>
+
+			<!--Featured -->
+			<h2 class="catergory" id="catfeatured">featured</h2>
+			<a href="renee.html">
+				<div class="over" id="featuredtitle">
+					<h3>Renee Erickson</h3>
+					<p>Renee Erickson is a James Beard award winning chef and owner of Sea Creatures Concept’s. Her food is driven by
+						her love for the local ingredients in the Pacific Northwest.</p>
+					</a>
+					</div>
+					<div class="" id="featuredimg"><img src="img/rene.jpeg" alt="doge" /></div>
+
+			
+
+		</div>
+
+
+		<!--Section 2: How To -->
+		<div ></div>
+		<div class="section2">
+			<!-- How To Tapas -->
+			<h2 class="catergory" id="cathowto">how to</h2>
+			<a href="tapas.html">
+				<div class="over" id="howtotitle">
+					<h3>Cocktail Hour</h3>
+					<p>Throwing a summer cocktail party can be as simple as sharing pitchers of sangria on the rooftop, but come fall,
+						hosting a cocktail party suddenly seems more complicated. But we're here for you!</p>
+					</a>
+				</div>
+				<div class="" id="howtoimg"><img src="img/drinks.jpg" alt="doge" /></div>
+
+			
+		</div>
+
+
+		<!--section 3: Interiors-->
+		<div class="container">
+			<div class="section3">
+				<h2 class="catergory" id="InteriorsText">interiors</h2>
+				<a href="wallpaper.html">
+					<div class="over" id="interiortitle">
+						<h3>Instagramable</h3>
+						<p>This month we’re giving you access to the best interiors of 2018. Use our guide to steal the restaurant design
+							trends for your own home.</p>
+						</a>
+					</div>
+				
+				<a id="dezimg" href="#">
+					<h3>dez</h3>
+				</a>
+				<a id="bootleggerimg" href="#">
+					<h3>luce</h3>
+				</a>
+				<a id="angelfaceimg" href="#">
+					<h3>angelface</h3>
+				</a>
+
+			</div>
+		</div>
+		</div>
+
+
+		<!--Section 4: City Guide-->
+		<div ></div>
+		<div class="section4">
+			<h2 class="catergory" id="catcityguide">city guide</h2>
+			<div class="" id="PDX1">
+				<img src="img/tusk.jpg" alt="doge" />
+			</div>
+			<a href="pdx.html">
+				<div class="over" id="PDX-text1">
+					<h3>Portland</h3>
+					<p>All hail Portland! The Pacific Northwest trail-blazer is a vibrant hub that celebrates the four cool “Cs” of
+						coffee, cycling, craft breweries and food carts.</p>
+					</a>
+					</div>
+			
+		</div>
+
+
+		<!--Section 5: Pantry-->
+		<div ></div>
+		<div class="section5">
+			<h2 class="catergory" id="catpantry">pantry</h2>
+			<div id="tahini">
+				<img src="img/tahini.png" alt="doge" />
+			</div>
+			<div id="matcha">
+				<img src="img/matcha.png" alt="doge" />
+			</div>
+			<div id="miso">
+				<img src="img/miso.png" alt="doge" />
+			</div>
+			<div id="salt">
+				<img src="img/salt.png" alt="doge" />
+			</div>
+			<a href="pantry.html">
+				<div class="over" id="pantrytext">
+					<h3>Pantry like a pro</h3>
+					<p>The difference between a “meh” weeknight dinner and a memorable one? A kitchen stocked with powerhouse
+						ingredients you’ll reach for again and again. These days that means anything from punchy spice blends to
+						flavor-packed condiments </p>
+					</a>
+				</div>
+			
+		</div>
+
+
+
+
+		<!-- Section 6: Sushi -->
+
+		<div ></div>
+		<div class="section6">
+			<h2 class="catergory" id="cateditortial">editorial</h2>
+			<div class="" id="sushi">
+				<img src="img/sushihand2.jpg" alt="doge" />
+			</div>
+
+			<a href="sushi.html">
+				<div class="over" id="sushi-text">
+					<h3>Jae Ahrens</h3>
+					<p>Jae's food is based on the finest ingredients available, the freshest fish and seasonal seafood from all parts
+						of the globe.</p>
+			</a>
+		</div>
+		</div>
+
+	</main>
+
+
+
+
+	<!-- ORGANIC SHAPES TEST END -->
+
+
+
+
+	<!-- FOOTER START -->
+	<section class="content content--related">
+	</section>
+	<div class="footer">
+		<div class="contain">
+			<div class="col">
+				<h1>Company</h1>
+				<ul>
+					<li>About</li>
+					<li>Subscribe</li>
+					<li>Contact Us</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h1>Products</h1>
+				<ul>
+					<li>Newsletter Sign Up</li>
+					<li>Palate Store</li>
+					<li>Social</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h1>Resources</h1>
+				<ul>
+					<li>Site Map</li>
+					<li>Media Kit</li>
+					<li>RSS Feeds</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h1>Careers</h1>
+				<ul>
+					<li>Job Openings</li>
+					<li>Internships</li>
+
+					<li>Employee Benefits</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h1>Support</h1>
+				<ul>
+					<li>Contact us</li>
+					<li>Web chat</li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="col social">
+				<h1>Social</h1>
+				<ul>
+					<li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+					<li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+					<li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- END OF FOOTER -->
+
+
+
+	<!--Javascript-->
+
+	<script src="js/rellax.js"></script>
+	<script>
+		var rellax = new Rellax('.rellax', {
+			// center: true
+			callback: function (position) {
+				// callback every position change
+				console.log(position);
+			}
+		});
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/scrollMonitor.js"></script>
+	<script src="js/demo1.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

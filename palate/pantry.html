@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>palate</title>
+	<!--your google fonts here-->
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<!--flexbox framework-->
+	<link href="css/blueprint.css" rel="stylesheet" type="text/css">
+	<!--animation css-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<!--Favicon-->
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<!--your styles-->
+	<link href="css/demo.css" rel="stylesheet" type="text/css">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+	<!--wow animatons-->
+	<!-- script animation test -->
+
+	<script src="js/wow.min.js"></script>
+
+
+	<!-- script animation test 2 -->
+	<script src="js/demo.js"></script>
+	<script src="js.anime.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min"></script>
+	<script src="js/scrollMonitor.js"></script>
+
+	<script>
+
+		document.documentElement.className = 'js';
+		var supportsCssVars = function () {
+			var s = document.createElement('style'),
+				support;
+
+			s.innerHTML = "root: {--tmp -var: bold; }";
+			document.head.appendChild(s);
+			support = !!(window.CSS && window.CSS.supports && window.CSS.supports('font-weight', 'var(--tmp-var)'));
+			s.parentNode.removeChild(s);
+			return support;
+		}
+		if (!supportsCssVars()) alert('Please view this demo in a modern browser that supports CSS Variables.')
+	</script>
+	<!-- script animation test 2 end -->
+	<script> new WOW().init();</script>
+
+</head>
+
+
+
+
+<body>
+
+	
+	<!--Header/NavBar-->
+	<div class="column two">
+		<a href="index.html"><h1>palate</h1></a>
+		<nav id="nav">
+			<ul>
+				<li><a href="recipe.html">recipes</a></li>
+				<li><a href="renee.html">featured</a></li>
+				<li><a href="sushi.html">editorial</a></li>
+				<li><a href="pantry.html">pantry</a></li>
+				<li><a href="pdx.html">city guide</a></li>
+				<li><a href="tapas.html">how to</a></li>
+				<li><a href="wallpaper.html">interiors</a></li>
+
+			</ul>
+		</nav>
+	</div>
+
+	<!-- ORGANIC SHAPES TEST 
+	<svg class="">
+		<symbol id="icon-arrow" viewBox="0 0 24 24">
+			<title>arrow</title>
+			<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 " />
+		</symbol>
+		<symbol id="icon-drop" viewBox="0 0 24 24">
+			<title>drop</title>
+			<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z" />
+			<path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z" />
+		</symbol>
+		<symbol id="shape-demo" viewBox="0 0 200 100">
+			<title>shape demo</title>
+			<path d="M 6.144,74.1 C 20.4,107.4 70.13,94.33 94.22,95.74 121.3,97.41 130.8,101.1 154.7,99.38 178.6,97.72 201.9,78.95 199.4,46.86 197.1,14.96 174.9,4.781 161.4,1.827 147.9,-1.128 119.8,8.284 105.6,8.766 85.34,9.449 81.91,7.628 51.08,2.334 17.26,-3.482 -8.105,40.84 6.144,74.1 Z" />
+		</symbol>
+	</svg>
+-->
+
+	<main>
+		<!--
+		<div class="morph-wrap">
+			<svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
+				<path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z" />
+			</svg>
+		</div>
+-->
+		<!--Pantry Header-->
+		<div >
+			<div class="grid8">
+				<div class="box2"></div>
+				<h2 class="catergory" id="pantrypageheadline">Pantry Essentials</h2>
+				<p id="pantrytext2">Pantry like a pro. The difference between a “meh” weeknight dinner and a memorable one? A
+					kitchen stocked with powerhouse ingredients you’ll reach for again and again. These days that means anything from
+					punchy spice blends to flavor-packed condiments </p>
+					
+
+				<div id="matcha2">
+					<img src="img/matcha.png" alt="doge" />
+				</div>
+				<div class="box3"></div>
+				<div id="matchabody">
+					<h3>Matcha</h3>
+					<p> Matcha can be mixed with water or milk or used for baked goods. Since Matcha is the whole leaf ground is is a
+						great source of chlorophyll and amino acid L-Theanine. Unlike coffee, matcha produces a calm feeling as well as a
+						caffeine jolt.
+					</p>
+					<a href="url">Buy Now</a>
+				</div>
+
+				<div class="box4"></div>
+				<div id="salt2">
+					<img src="img/salt.png" alt="doge" />
+				</div>
+				<div id="saltbody">
+					<h3>Jacobsen Sea Salt</h3>
+					<p> Used by professionals across the country. Use their salt to amplify your dishes and build flavor
+						in your food. Jacobsen is the first company to harvest sea salt in the Pacific Northwest since Lewis and Clark.
+					</p>
+					<a href="url">Buy Now</a>
+
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!--Spices 2-->
+		<div class="grid9">
+			
+			<div class="box5"></div>
+			<div id="tahini2">
+				<img src="img/tahini.png" alt="doge" />
+			</div>
+			<div id="tahinibody">
+				<h3>Tahini</h3>
+				<p> Tahini is made of toasted sesame seeds. It is both savory and nutty and can be used as a replacement for peanut
+					butter. It can be used in salad dressings or swirled into brownies.
+				</p>
+				<a href="url">Buy Now</a>
+
+			</div>
+			<div class="box6"></div>
+			<div id="sambal">
+				<img src="img/sambal.png" alt="doge" />
+			</div>
+		
+
+			<div id="sambalbody">
+				<h3>Sambal</h3>
+				<p>A sweet, vinegary hot sauce that will spice up any meal. Use it in curries or on top of your pizza to add a more
+					diverse flavor profile to your meals. Once you try it, it will become an essential item in your pantry and an easy
+					way to spice up a bland office meal.
+
+				</p>
+				<a href="url">Buy Now</a>
+
+			</div>
+		</div>
+
+		<!--section 3-->
+		<div class=""><!--content wrap-->
+			<div class="grid2">
+				<div class="box7"></div>
+				<div id="miso2">
+					<img src="img/miso.png" alt="doge" />
+				</div>
+				<div id="misobody">
+					<h3>Miso</h3>
+					<p>Yes, it;s fundamental for miso soup, but it also gives instant depth to sauces and marinades. red is more
+						robust than yellow or white.
+					</p>
+					<a href="url">Buy Now</a>
+
+				</div>
+				<div class="box8"></div>
+				<div id="oil">
+					<img src="img/coconutoil.png" alt="doge" />
+				</div>
+				<div id="oilbody">
+					<h3>Coconut Oil</h3>
+					<p>we like the refined version of this rich oil for sauteing because it has a higher smoke point, for more
+						coconutty flabor go with virgin.
+					</p>
+					<a href="url">Buy Now</a>
+
+				</div>
+				
+
+			</div>
+		</div>
+
+		<!--section4-->
+		<div class=""><!--content wrap-->
+			<div class="grid3">
+					<div class="box9"></div>
+					<div id="tumeric">
+							<img src="img/tumeric.png" alt="doge" />
+						</div>
+						<div id="tumericbody">
+							<h3>Turmeric</h3>
+							<p>The ground form of this flammation reducing rhizone has been used as a seasoning, herbal remedy, and fabric dye fur millennials. It's sweet, warming, and slightly bitter. Add it to the aromatics when makinf curries, vegetable soups, and rice pilafs.
+							</p>
+						</div>
+						<div class="box10"></div>
+						<div id="furikake">
+							<img src="img/furikake.png" alt="doge" />
+						</div>
+						<div id="furikakebody">
+							<h3>Furikake</h3>
+							<p>These savory sprinkles are supercharged with seaweed, fish flakes, sugar, salt, and sesame. Let it rain on fried rice, grain bowls, or crispyskinned salmon fillets.
+							</p>
+							<a href="url">Buy Now</a>
+
+						</div>
+			</div>
+		</div>
+
+
+		<!--section 5-->
+		<div class="container">
+			<div class=""><!--content wrap-->
+					<div class="grid3">
+							<div class="box11"></div>
+							<div id="yeast">
+									<img src="img/yeast.png" alt="doge" />
+								</div>
+								<div id="yeastbody">
+									<h3>Nutrional Yeast</h3>
+									<p>Vegans love this magic dust because it's a great dairy-free parmesan stand-in. that may be where nutritional yeast got its flower power reputation but don't knock it till you try it. Its umami-ness makes bowls of popcorn more addictive and roasted vegetables more complex.
+									</p>
+									<a href="url">Buy Now</a>
+
+								</div>
+					</div>
+		
+			</div>
+		</div>
+
+		<!--next article-->
+		<div class="container">
+			<div class="">
+				<!--content wrap-->
+				<div class="grid10">
+					<h3 class="relatedarticles">related articles</h3>
+
+					<div id="article1">
+						<h3 class="articletext">City Guide: Portland</h3>
+						<img src="img/tusk.jpg" alt="doge" />
+						<p>All hail Portland! The Pacific Northwest trail-blazer is a vibrant hub that celebrates the four cool “Cs” of
+							coffee, cycling, craft breweries and food carts.</p>
+						<a href="pdx.html" class="link">Read More</a>
+
+					</div>
+					<div id="article2">
+						<h3 class="articletext">How to:<br>Cocktails Hours</h3>
+						<img src="img/drinks.jpg" alt="doge" />
+						<p>Summer cocktail party can be as simple as sharing pitchers of sangria, but come fall,
+							hosting a cocktail party seems hard. But we're here for you!</p>
+						<a href="tapas.html" class="link">Read More</a>
+
+					</div>
+					<div id="article3">
+						<h3 class="articletext">Interiors:<br>Instagrammable</h3>
+						<img src="img/luce3.jpg" alt="doge" />
+						<p>This month we’re giving you access to the best interiors of 2018. Use our guide to steal the restaurant design
+							trends for your own home.
+						</p>
+						<a href="wallpaper.html" class="link">Read More</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Related demos -->
+		<section class="content content--related">
+			<p class="content__info"></p>
+			<a class="content__related-item" href="">
+				<img class="content__related-img" src="">
+				<h3 class="content__related-title"></h3>
+			</a>
+			<a class="content__related-item" href="">
+				<img class="content__related-img" src="">
+				<h3 class="content__related-title"></h3>
+			</a>
+		</section>
+	</main>
+
+
+
+
+	<!-- ORGANIC SHAPES TEST END -->
+
+
+
+
+
+
+
+
+	<!-- FOOTER START -->
+	<section class="content content--related">
+	</section>
+	<div class="footer">
+		<div class="contain">
+			<div class="col">
+				<h1>Company</h1>
+				<ul>
+					<li>About</li>
+					<li>Subscribe</li>
+					<li>Contact Us</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h1>Products</h1>
+				<ul>
+					<li>Newsletter Sign Up</li>
+					<li>Palate Store</li>
+					<li>Social</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h1>Resources</h1>
+				<ul>
+					<li>Site Map</li>
+					<li>Media Kit</li>
+					<li>RSS Feeds</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h1>Careers</h1>
+				<ul>
+					<li>Job Openings</li>
+					<li>Internships</li>
+
+					<li>Employee Benefits</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h1>Support</h1>
+				<ul>
+					<li>Contact us</li>
+					<li>Web chat</li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="col social">
+				<h1>Social</h1>
+				<ul>
+					<li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+					<li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+					<li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- END OF FOOTER -->
+
+
+
+
+	<!--Javascript-->
+
+	<script src="js/rellax.js"></script>
+	<script>
+		var rellax = new Rellax('.rellax', {
+			// center: true
+			callback: function (position) {
+				// callback every position change
+				console.log(position);
+			}
+		});
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/scrollMonitor.js"></script>
+	<script src="js/demo1.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
